@@ -200,11 +200,11 @@ p {
 }
 
 .mc4wp-form input[type="submit"] {
-	background:   #ffd606;
+	background:   #5fa292;
 	color:        #2a2a2a;
 	margin-left:  3px;
 	padding:      8px 20px;
-	border-color: #ffd606;
+	border-color: #5fa292;
 	width: auto;
 	cursor: pointer;
 }
