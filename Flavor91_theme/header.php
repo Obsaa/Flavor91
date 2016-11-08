@@ -62,7 +62,7 @@ if ( isset( $theme_options_data['thim_rtl_support'] ) && $theme_options_data['th
 					$preload_image = wp_get_attachment_image_src( $theme_options_data['thim_custom_preload_image'], 'full' );
 					echo '<img src="' . esc_url( $preload_image[0] ) . '" alt="Resca"/>';
 				} else {
-					echo '<img src="http://resca.thimpress.com/wp-content/uploads/2015/07/resca.png" alt="Resca"/>';
+					echo '<img src="https://lh3.googleusercontent.com/R6VuwqVgTJdN3ilkAfY0seMTpIkF2a66L_F4hrOjJ1hNLju2aS1G3IgabvvLPTeqVEVsGzI67cW4uj0=w1356-h600" alt="Resca"/>';
 				}
 				?>
 				<?php if ( isset( $theme_options_data['thim_custom_preload_title'] ) && $theme_options_data['thim_custom_preload_title'] <> '' ) {

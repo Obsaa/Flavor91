@@ -22,6 +22,13 @@ $display->createOption( array(
 	'default' => true,
 ) );
 
+$display->createOption( array(
+	'name'    => __( 'Yelp', 'thim' ),
+	'id'      => 'archive_sharing_yelp',
+	'type'    => 'checkbox',
+	"desc"    => "Show the yelp sharing option in product.",
+	'default' => true,
+) );
 
 $display->createOption( array(
 	'name'    => __( 'Google Plus', 'thim' ),

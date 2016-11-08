@@ -18,7 +18,7 @@ $styling->createOption( array(
 	'name'        => 'Theme Primary Color',
 	'id'          => 'body_primary_color',
 	'type'        => 'color-opacity',
-	'default'     => '#ffb606',
+	'default'     => '#699E87',
 	'livepreview' => '
 		$("a").css("background-color", value);
  	'

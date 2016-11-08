@@ -21,11 +21,11 @@ $footer->createOption( array(
 	'livepreview' => '$("#powered").css("color", value);'
 ) );
 
-$copy_right = 'http://www.thimpress.com';
+$copy_right = 'http://www.getresolveit.com';
 $footer->createOption( array(
 	'name'        => __( 'Copyright Text', 'thim' ),
 	'id'          => 'copyright_text',
 	'type'        => 'textarea',
-	'default'     => 'Designed by <a href="' . $copy_right . '">ThimPress.</a>Powered by WordPress.',
+	'default'     => 'Designed by <a href="' . $copy_right . '">Resolveit Support.</a>Powered by WordPress.',
 	'livepreview' => '$("#powered").html(function(){return "<p>"+ value + "</p>";})'
 ) );
