@@ -60,9 +60,9 @@ if ( isset( $theme_options_data['thim_rtl_support'] ) && $theme_options_data['th
 			<h1 class="ip-logo">
 				<?php if ( isset( $theme_options_data['thim_custom_preload_image'] ) && $theme_options_data['thim_custom_preload_image'] <> '' ) {
 					$preload_image = wp_get_attachment_image_src( $theme_options_data['thim_custom_preload_image'], 'full' );
-					echo '<img src="' . esc_url( $preload_image[0] ) . '" alt="Resca"/>';
+					echo '<img src="' . esc_url( $preload_image[0] ) . '" alt="Flavor91"/>';
 				} else {
-					echo '<img src="https://lh3.googleusercontent.com/R6VuwqVgTJdN3ilkAfY0seMTpIkF2a66L_F4hrOjJ1hNLju2aS1G3IgabvvLPTeqVEVsGzI67cW4uj0=w1356-h600" alt="Resca"/>';
+					echo '<img src="https://lh3.googleusercontent.com/R6VuwqVgTJdN3ilkAfY0seMTpIkF2a66L_F4hrOjJ1hNLju2aS1G3IgabvvLPTeqVEVsGzI67cW4uj0=w1356-h600" alt="Flavor91"/>';
 				}
 				?>
 				<?php if ( isset( $theme_options_data['thim_custom_preload_title'] ) && $theme_options_data['thim_custom_preload_title'] <> '' ) {
