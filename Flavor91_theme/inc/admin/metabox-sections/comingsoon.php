@@ -23,7 +23,7 @@ $comingsoon->createOption( array(
 		'black'  => __( 'Black', 'thim' ),
 		'blue'   => __( 'Blue', 'thim' ),
 		'green'  => __( 'Green', 'thim' ),
-		'orange' => __( 'Orange', 'thim' ),
+		'orange' => __( 'Green', 'thim' ),
 		'red'    => __( 'Red', 'thim' ),
 	),
 	'default' => 'black',
@@ -98,5 +98,5 @@ $comingsoon->createOption( array(
 	'name'    => __( 'Copyright Text', 'thim' ),
 	'id'      => 'text_copyright',
 	'type'    => 'text',
-	'default' => 'Powered By <a href="' . $copy_right . '">ThimPress</a>adot &copy; 2015',
+	'default' => 'Powered By <a href="' . $copy_right . '">ResolvIT</a>adot &copy; 2016',
 ) );
